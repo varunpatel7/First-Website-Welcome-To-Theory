@@ -89,7 +89,7 @@ body{
     margin-top: 25px;
 }
 
-.main button{
+.my-button{
     width: 100px;
     height: 40px;
     background-color: #5385c1;
@@ -104,4 +104,96 @@ body{
     border-style: solid;
     border-width: 0px 1px 0px 0px;
     border-color: #dbdbdb;
+}
+
+/* Team Starts Here */
+
+.team{
+    width: 100%;
+    background-color: #5385c1;
+    color: #fff;
+}
+
+.fixed-width{
+    width: 60%;
+    margin: 0 auto;
+    padding: 70px 0px;
+}
+
+.fixed-width h1{
+    font-weight: 200;
+    text-align: center;
+    font-size: 45px;
+}
+
+.fixed-width p{
+    font-weight: 300;
+    text-align: center;
+}
+
+.person{
+    width: 20%;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 30px 5px;
+    float: left;
+    margin-right: 38px;
+    margin-top: 65px;
+}
+
+.person img{
+    border-radius: 100%;
+    width: 70%;
+}
+
+/* Two Section Starts Here */
+
+.two-section{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.two-section h1{
+    color: #5385c1;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 20px;
+}
+
+.two-section p{
+    font-size: 20px;
+    color: gray;
+}
+
+.two-section .left{
+    width: 45%;
+    float: left;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.two-section .right{
+    width: 45%;
+    float: right;
+    text-align: left;
+    margin-top: 40px
+}
+
+.two-section h2{
+    color: #5385c1;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 20px;
+    padding: 30px 0;
+}
+
+.two-section p{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.two-section img{
+    width: 100%;
 }
